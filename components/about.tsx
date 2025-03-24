@@ -1,5 +1,5 @@
-import { Button } from "@/components/ui/button"
-import Link from "next/link"
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export default function About() {
   return (
@@ -18,18 +18,20 @@ export default function About() {
 
           <div className="space-y-6 text-gray-700 dark:text-gray-300 bg-white/70 dark:bg-gray-800/70 backdrop-blur-sm p-8 rounded-xl shadow-lg">
             <p>
-              I am an ambitious and dedicated Computer Science student at the University of Eldoret with a solid
-              foundation in frontend and backend development, particularly in Node.js and the Express framework.
+              I have a solid foundation in frontend and backend development,
+              particularly in Node.js and the Express framework.
             </p>
             <p>
-              I have proven ability to develop effective and efficient web solutions demonstrated through practical
-              projects and certifications. I'm eager to leverage my skills in a dynamic professional environment to
-              drive technological advancements.
+              I have proven ability to develop effective and efficient web
+              solutions demonstrated through practical projects and
+              certifications. I'm eager to leverage my skills in a dynamic
+              professional environment to drive technological advancements.
             </p>
             <p>
-              My passion for coding extends beyond the classroom, as I regularly participate in coding challenges and
-              hackathons to sharpen my skills. I enjoy solving complex problems and creating intuitive, user-friendly
-              applications.
+              My passion for coding extends beyond the classroom, as I regularly
+              participate in coding challenges and hackathons to sharpen my
+              skills. I enjoy solving complex problems and creating intuitive,
+              user-friendly applications.
             </p>
           </div>
 
@@ -45,6 +47,5 @@ export default function About() {
         </div>
       </div>
     </section>
-  )
+  );
 }
-

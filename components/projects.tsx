@@ -60,7 +60,7 @@ const projects = [
     technologies: ["HTML", "CSS", "JavaScript", "React", "GitHub Pages"],
     links: {
       live: "#",
-      github: "#",
+      github: "https://github.com/its-Frank/frankline-portfolio.git",
     },
   },
 ];

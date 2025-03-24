@@ -12,7 +12,7 @@ const skillCategories = [
   {
     title: "Programming Languages",
     icon: <Code className="h-6 w-6 text-blue-600 dark:text-blue-400" />,
-    skills: ["JavaScript", "Python", "C", "C++", "C#", "HTML", "CSS"],
+    skills: ["JavaScript", "Python", "C++", "C#"],
   },
   {
     title: "Frameworks",
@@ -21,6 +21,7 @@ const skillCategories = [
       "Bootstrap",
       "Node.js",
       "Express.js",
+      "Next.Js",
       "Django",
       "Tailwind",
       "React",
@@ -29,7 +30,7 @@ const skillCategories = [
   {
     title: "Databases",
     icon: <Database className="h-6 w-6 text-blue-600 dark:text-blue-400" />,
-    skills: ["MySQL"],
+    skills: ["MySQL", "PostgreSQL"],
   },
   {
     title: "Tools & Platforms",

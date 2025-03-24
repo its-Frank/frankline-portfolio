@@ -27,9 +27,8 @@ export default function Hero() {
             Full Stack Developer
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-400 mb-10 max-w-2xl mx-auto">
-            Ambitious and dedicated Computer Science student with expertise in
-            frontend and backend development, particularly in Node.js and
-            Express framework.
+            Building digital experiences with modern technologies. Focused on
+            creating elegant solutions to complex problems.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
