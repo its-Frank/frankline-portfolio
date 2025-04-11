@@ -59,8 +59,30 @@ const projects = [
     role: "Full Stack Developer",
     technologies: ["HTML", "CSS", "JavaScript", "React", "GitHub Pages"],
     links: {
-      live: "#",
+      live: "https://v0-portfolio-website-build-lqdcwh.vercel.app/",
       github: "https://github.com/its-Frank/frankline-portfolio.git",
+    },
+  },
+  {
+    title: "Wingra Insurance Company",
+    description:
+      "Designed and developed an insurance website for a company. Built with modern web technologies and deployed it.",
+    role: "Full Stack Developer",
+    technologies: ["TypeScript", "Tailwind", "React", "NextJs", "Express"],
+    links: {
+      live: "https://wingra.co.ke/",
+      github: "https://github.com/its-Frank/wingra-insurance--1-.git",
+    },
+  },
+  {
+    title: "Sasakazi",
+    description:
+      "Designed and developed a website which serves as the gateway for businesses across Africa to access the continent's top tech talent required to unlock the full potential of the digital future. Where clients can find writers and sell their services.",
+    role: "Full Stack Developer",
+    technologies: ["HTML", "CSS", "JavaScript", "Php", "Laravel"],
+    links: {
+      live: "https://sasakazi.com/",
+      github: "#",
     },
   },
 ];

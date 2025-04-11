@@ -12,7 +12,7 @@ const skillCategories = [
   {
     title: "Programming Languages",
     icon: <Code className="h-6 w-6 text-blue-600 dark:text-blue-400" />,
-    skills: ["JavaScript", "Python", "C++", "C#"],
+    skills: ["JavaScript", "Python", "C++", "C#", "TypeScript"],
   },
   {
     title: "Frameworks",
@@ -45,7 +45,12 @@ const skillCategories = [
   {
     title: "Other Skills",
     icon: <GitBranch className="h-6 w-6 text-blue-600 dark:text-blue-400" />,
-    skills: ["Agile Development", "Problem-Solving", "Team Collaboration"],
+    skills: [
+      "Graphic Design",
+      "Agile Development",
+      "Problem-Solving",
+      "Team Collaboration",
+    ],
   },
 ];
 
