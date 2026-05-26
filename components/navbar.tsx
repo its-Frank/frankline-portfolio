@@ -1,11 +1,11 @@
-"use client"
+"use client";
 
-import type React from "react"
+import type React from "react";
 
-import { useState, useEffect } from "react"
-import Link from "next/link"
-import { Menu, X } from "lucide-react"
-import { cn } from "@/lib/utils"
+import { useState, useEffect } from "react";
+import Link from "next/link";
+import { Menu, X } from "lucide-react";
+import { cn } from "@/lib/utils";
 
 const navLinks = [
   { name: "Home", href: "#home" },
@@ -15,60 +15,65 @@ const navLinks = [
   { name: "Experience", href: "#experience" },
   { name: "Education", href: "#education" },
   { name: "Contact", href: "#contact" },
-]
+];
 
 export default function Navbar() {
-  const [isOpen, setIsOpen] = useState(false)
-  const [scrolled, setScrolled] = useState(false)
-  const [activeSection, setActiveSection] = useState("home")
+  const [isOpen, setIsOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+  const [activeSection, setActiveSection] = useState("home");
 
   useEffect(() => {
     const handleScroll = () => {
-      setScrolled(window.scrollY > 10)
+      setScrolled(window.scrollY > 10);
 
       // Determine active section based on scroll position
-      const sections = navLinks.map((link) => link.href.substring(1))
+      const sections = navLinks.map((link) => link.href.substring(1));
 
       for (const section of sections.reverse()) {
-        const element = document.getElementById(section)
+        const element = document.getElementById(section);
         if (element) {
-          const rect = element.getBoundingClientRect()
+          const rect = element.getBoundingClientRect();
           if (rect.top <= 100) {
-            setActiveSection(section)
-            break
+            setActiveSection(section);
+            break;
           }
         }
       }
-    }
+    };
 
-    window.addEventListener("scroll", handleScroll)
-    return () => window.removeEventListener("scroll", handleScroll)
-  }, [])
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
-  const handleLinkClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
-    e.preventDefault()
-    setIsOpen(false)
+  const handleLinkClick = (
+    e: React.MouseEvent<HTMLAnchorElement>,
+    href: string,
+  ) => {
+    e.preventDefault();
+    setIsOpen(false);
 
-    const targetId = href.replace("#", "")
-    const element = document.getElementById(targetId)
+    const targetId = href.replace("#", "");
+    const element = document.getElementById(targetId);
 
     if (element) {
       window.scrollTo({
         top: element.offsetTop - 80, // Adjust for navbar height
         behavior: "smooth",
-      })
+      });
 
       // Update URL without page reload
-      window.history.pushState(null, "", href)
-      setActiveSection(targetId)
+      window.history.pushState(null, "", href);
+      setActiveSection(targetId);
     }
-  }
+  };
 
   return (
     <header
       className={cn(
         "fixed top-0 w-full z-50 transition-all duration-300",
-        scrolled ? "bg-white/90 dark:bg-gray-900/90 backdrop-blur-sm shadow-md" : "bg-transparent",
+        scrolled
+          ? "bg-white/90 dark:bg-gray-900/90 backdrop-blur-sm shadow-md"
+          : "bg-transparent",
       )}
     >
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
@@ -77,7 +82,7 @@ export default function Navbar() {
           className="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600 dark:from-blue-400 dark:to-indigo-400"
           onClick={(e) => handleLinkClick(e, "#home")}
         >
-          Frankline Orina
+          Francis Wany
         </Link>
 
         {/* Desktop Navigation */}
@@ -103,7 +108,10 @@ export default function Navbar() {
         </nav>
 
         {/* Mobile Navigation Toggle */}
-        <button className="md:hidden text-gray-700 dark:text-gray-200" onClick={() => setIsOpen(!isOpen)}>
+        <button
+          className="md:hidden text-gray-700 dark:text-gray-200"
+          onClick={() => setIsOpen(!isOpen)}
+        >
           {isOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
       </div>
@@ -131,6 +139,5 @@ export default function Navbar() {
         </div>
       )}
     </header>
-  )
+  );
 }
-
