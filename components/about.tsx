@@ -18,20 +18,55 @@ export default function About() {
 
           <div className="space-y-6 text-gray-700 dark:text-gray-300 bg-white/70 dark:bg-gray-800/70 backdrop-blur-sm p-8 rounded-xl shadow-lg">
             <p>
-              I have a solid foundation in frontend and backend development,
-              particularly in Node.js and the Express framework.
+              I am a highly motivated and results-driven software engineer with
+              a strong academic background in Computer Science and several years
+              of professional experience in software development and technical
+              problem-solving. I hold both a Bachelor of Science and a Master of
+              Science in Computer Science from the University of California, San
+              Diego, where I gained extensive knowledge in software engineering,
+              programming, systems design, and analytical problem-solving. My
+              educational journey helped me build a solid foundation in modern
+              computing technologies, algorithms, and software architecture,
+              while also strengthening my communication and research skills.
             </p>
             <p>
-              I have proven ability to develop effective and efficient web
-              solutions demonstrated through practical projects and
-              certifications. I'm eager to leverage my skills in a dynamic
-              professional environment to drive technological advancements.
+              Professionally, I have worked as a Software Engineer and Software
+              Developer, where I developed and maintained high-quality software
+              applications using programming languages such as Java, Python,
+              JavaScript, TypeScript, and C++. I have experience designing
+              scalable software solutions, optimizing business processes,
+              conducting system analysis, and collaborating with
+              cross-functional teams to deliver efficient and innovative
+              solutions. In addition, I have experience mentoring junior
+              developers, conducting code reviews, and delivering technical
+              training sessions and workshops. My work has also involved
+              developing web applications, improving software performance, and
+              communicating technical findings clearly to stakeholders and team
+              members.
             </p>
             <p>
-              My passion for coding extends beyond the classroom, as I regularly
-              participate in coding challenges and hackathons to sharpen my
-              skills. I enjoy solving complex problems and creating intuitive,
-              user-friendly applications.
+              Beyond software development, I also served as a Technical Writer
+              and Instructor, where I taught software engineering concepts and
+              programming courses to undergraduate students. This role
+              strengthened my ability to explain complex technical concepts in a
+              simple and engaging way while helping students succeed
+              academically. I am passionate about continuous learning and always
+              stay updated with the latest technologies, coding practices, and
+              software development trends.
+            </p>
+            <p>
+              My technical skill set includes proficiency in numerous
+              programming languages and technologies such as SQL, Swift, Ruby,
+              Rust, Go, PHP, HTML, MATLAB, C#, Shell scripting, and .NET
+              development. I also possess strong analytical, communication,
+              technical writing, and problem-solving skills, which allow me to
+              adapt quickly to new challenges and work effectively both
+              independently and within teams. Additionally, I have contributed
+              to open-source projects, published articles related to software
+              engineering best practices, and developed software tools that
+              improved data processing performance. Overall, I am passionate
+              about technology, innovation, mentorship, and using my skills to
+              create impactful and efficient solutions.
             </p>
           </div>
 

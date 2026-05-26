@@ -27,7 +27,7 @@ export default function Contact() {
   const [submitSuccess, setSubmitSuccess] = useState(false);
 
   const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
   ) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
@@ -75,13 +75,13 @@ export default function Contact() {
                 <div className="flex items-center gap-3">
                   <Mail className="h-5 w-5 text-blue-600 dark:text-blue-400" />
                   <a
-                    href="mailto:franklineorina6@gmail.com"
+                    href="mailto:rexf884@gmail.com"
                     className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
                   >
-                    franklineorina6@gmail.com
+                    rexf884@gmail.com
                   </a>
                 </div>
-                <div className="flex items-center gap-3">
+                {/* <div className="flex items-center gap-3">
                   <Phone className="h-5 w-5 text-blue-600 dark:text-blue-400" />
                   <a
                     href="tel:+254718932518"
@@ -89,10 +89,10 @@ export default function Contact() {
                   >
                     +254 718932518
                   </a>
-                </div>
+                </div> */}
                 <div className="flex items-center gap-3">
                   <MapPin className="h-5 w-5 text-blue-600 dark:text-blue-400" />
-                  <span>Nairobi, Kenya</span>
+                  <span>Texas, United States</span>
                 </div>
               </CardContent>
             </Card>

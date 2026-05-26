@@ -20,7 +20,7 @@ export default function Hero() {
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
             Hi, I'm{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600 dark:from-blue-400 dark:to-indigo-400">
-              Frankline Orina
+              Francis Wany
             </span>
           </h1>
           <h2 className="text-2xl md:text-3xl font-medium text-gray-700 dark:text-gray-300 mb-8">
@@ -60,14 +60,14 @@ export default function Hero() {
               <span className="sr-only">GitHub</span>
             </Link>
             <Link
-              href="mailto:franklineorina6@gmail.com"
+              href="mailto:rexf884@gmail.com"
               className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
             >
               <Mail size={24} />
               <span className="sr-only">Email</span>
             </Link>
             <Link
-              href="www.linkedin.com/in/frankline-orina-a24a72315"
+              href="https://www.linkedin.com/in/sales-force-778443368/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"

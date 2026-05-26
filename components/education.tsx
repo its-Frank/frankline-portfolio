@@ -8,16 +8,16 @@ import { GraduationCap, CalendarDays, MapPin } from "lucide-react";
 
 const educationItems = [
   {
-    degree: "Bachelor of Science in Computer Science",
-    institution: "University of Eldoret",
-    location: "Kenya",
-    period: "Current",
+    degree: "Master of Science in Computer Science",
+    institution: "University of California, San Diego, CA",
+    location: "California, USA",
+    period: "2014-2016",
   },
   {
-    degree: "Web Development Certification",
-    institution: "EldoHub Academy",
-    location: "Kenya",
-    period: "Completed: April 2024",
+    degree: "Bachelor of Science in Computer Science",
+    institution: "University of California, San Diego, CA",
+    location: "California, USA",
+    period: "2010-2014",
   },
 ];
 

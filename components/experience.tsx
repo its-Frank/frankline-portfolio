@@ -1,19 +1,55 @@
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { CalendarDays, MapPin } from "lucide-react"
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { CalendarDays, MapPin } from "lucide-react";
 
 const experiences = [
   {
-    title: "Intern Web Developer",
-    company: "Cambrian Valuers Limited",
-    location: "Nairobi, Kenya",
-    period: "May 2024 – August 2024",
+    title: "Software Engineer",
+    company: "Innovative Software Solutions",
+    location: "San Diego, CA",
+    period: "July 2018 – May 2025",
     description: [
-      "Assisted in the development of web applications.",
-      "Collaborated with the design team to integrate frontend components.",
-      "Participated in code reviews and contributed to improving coding standards.",
+      "Developed and maintained high-quality software applications in Java, Python, and JavaScript.",
+      "Designed and implemented software solutions to optimize business processes and improve decisionmaking.",
+      " Collaborated with cross-functional teams to analyze requirements, design software architecture, and deliver robust solutions.",
+      "Conducted code reviews and provided mentorship to junior developers.",
+      "Delivered training sessions and workshops on advanced software development concepts and techniques. ",
     ],
   },
-]
+
+  {
+    title: "Software Developer",
+    company: "Tech Innovations",
+    location: "San Diego, CA",
+    period: " January 2018 - June 2020  ",
+    description: [
+      "Conducted in-depth software development and system analysis to support business operations and strategic decision-making.",
+      "Designed and implemented algorithms to optimize resource allocation, improve efficiency, and minimize costs. ",
+      "Developed and maintained web applications using JavaScript, Typescript, and C++. ",
+      "Communicated findings and recommendations to stakeholders through clear and concise reports and presentations. ",
+      "Collaborated with cross-functional teams to implement software solutions that addressed complex business challenges and improved overall performance.",
+    ],
+  },
+
+  {
+    title: "Technical Writer and Instructor.",
+    company: "San Diego State University",
+    location: "San Diego, CA",
+    period: " August 2016 - December 2016  ",
+    description: [
+      "Taught undergraduate courses in software engineering, including programming languages and software design principles. ",
+      "Designed and delivered engaging lectures, tutorials, and interactive activities to facilitate learning and comprehension. ",
+      "Provided one-on-one assistance to students, offering guidance and support to help them succeed academically. ",
+      " Participated in curriculum development and assessment activities to ensure alignment with educational standards and objectives.  ",
+      "Contributed to the development of course materials, including lecture notes, assignments, and exams, to enhance the learning experience for students.",
+    ],
+  },
+];
 
 export default function Experience() {
   return (
@@ -36,7 +72,9 @@ export default function Experience() {
               className="mb-8 border-none shadow-lg bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm hover:shadow-xl transition-all"
             >
               <CardHeader>
-                <CardTitle className="text-blue-600 dark:text-blue-400">{exp.title}</CardTitle>
+                <CardTitle className="text-blue-600 dark:text-blue-400">
+                  {exp.title}
+                </CardTitle>
                 <CardDescription className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-6">
                   <span className="font-medium">{exp.company}</span>
                   <div className="flex items-center gap-1 text-gray-500 dark:text-gray-400">
@@ -61,6 +99,5 @@ export default function Experience() {
         </div>
       </div>
     </section>
-  )
+  );
 }
-

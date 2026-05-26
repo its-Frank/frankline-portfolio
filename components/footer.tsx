@@ -19,14 +19,14 @@ export default function Footer() {
               <span className="sr-only">GitHub</span>
             </Link>
             <Link
-              href="mailto:franklineorina6@gmail.com"
+              href="mailto:rexf884@gmail.com"
               className="text-white/80 hover:text-white transition-colors"
             >
               <Mail size={20} />
               <span className="sr-only">Email</span>
             </Link>
             <Link
-              href="www.linkedin.com/in/frankline-orina-a24a72315"
+              href="https://www.linkedin.com/in/sales-force-778443368/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white/80 hover:text-white transition-colors"
@@ -38,7 +38,7 @@ export default function Footer() {
 
           <div className="text-center">
             <p className="text-white/80">
-              &copy; {currentYear} Frankline Orina. All rights reserved.
+              &copy; {currentYear} Francis Wany. All rights reserved.
             </p>
           </div>
         </div>

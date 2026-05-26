@@ -52,17 +52,7 @@ const projects = [
       github: "https://github.com/its-Frank/paspark_html.git",
     },
   },
-  {
-    title: "Personal Portfolio Website",
-    description:
-      "Designed and developed a personal portfolio website to showcase skills, projects, and experience. Built with modern web technologies and deployed on GitHub Pages.",
-    role: "Full Stack Developer",
-    technologies: ["HTML", "CSS", "JavaScript", "React", "GitHub Pages"],
-    links: {
-      live: "https://v0-portfolio-website-build-lqdcwh.vercel.app/",
-      github: "https://github.com/its-Frank/frankline-portfolio.git",
-    },
-  },
+
   {
     title: "Wingra Insurance Company",
     description:
@@ -70,19 +60,19 @@ const projects = [
     role: "Full Stack Developer",
     technologies: ["TypeScript", "Tailwind", "React", "NextJs", "Express"],
     links: {
-      live: "https://wingra.co.ke/",
+      live: "https://wingrainsurance.co.ke/",
       github: "https://github.com/its-Frank/wingra-insurance--1-.git",
     },
   },
   {
-    title: "Sasakazi",
+    title: "Aipush",
     description:
-      "Designed and developed a website which serves as the gateway for businesses across Africa to access the continent's top tech talent required to unlock the full potential of the digital future. Where clients can find writers and sell their services.",
+      "Designed and developed a website which serves as the gateway for businesses across the world to access the world's top talent and help clients connect with prospects.",
     role: "Full Stack Developer",
     technologies: ["HTML", "CSS", "JavaScript", "Php", "Laravel"],
     links: {
-      live: "https://sasakazi.com/",
-      github: "#",
+      live: "http://aipush.in/",
+      github: "https://github.com/its-Frank/gigbooking",
     },
   },
 ];
